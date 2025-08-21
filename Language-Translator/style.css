@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    background-color: rgb(64, 64, 197);
+    height: 100vh;
+}
+
+.container{
+    max-width: 550px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgb(29, 28, 28);
+}
+
+.wrapper{
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.text-input{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.to-text{
+    border-left: 1px solid #ccc;
+    border-radius: 0px;
+}
+
+textarea{
+    height: 150px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 10px;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+textarea::placeholder{
+    color: #b7b7b7;
+}
+
+.controls, li, .icons, .icons i{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+.controls .row .icons i {
+    width: 40px;
+    font-size: 16px;
+    color: #b7b7b7;
+    justify-content: center;
+}
+
+li{
+    cursor: pointer;
+}
+
+.controls{
+    list-style: none;
+    padding: 12px 15px;
+}
+
+.controls .row.from .icons {
+    padding-right: 15px;
+    border-right: 1px solid #ccc;
+}
+
+.controls .row.to .icons {
+    padding-left: 15px;
+    border-left: 1px solid #ccc;
+}
+
+.controls .row .icons{
+    width: 40%;
+}
+
+select{
+    color: #333;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px; 
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(38, 38, 181);
+}
+
+@media screen and (max-width: 500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        width: 100%;
+        padding: 2px;
+        align-self: center;
+    }
+    .controls .row.from .icons {
+        padding-left: 2px;
+        border-right: 1px solid #ccc;
+    }
+    
+    .controls .row.to .icons {
+        padding-right: 2px;
+        border-left: 1px solid #ccc;
+    }
+    select{
+        font-size: 10px;
+        padding: 1px; 
+    }
+
+    i{
+        padding: 5px;
+    }
+    .controls .row .icons i {
+        width: 18px;
+        font-size: 10px;
+    }
+    textarea{
+        font-size: 14px;
+        height: 125px;
+    }
+}
