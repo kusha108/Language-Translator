@@ -28,6 +28,6 @@ HTML5 – Structure
 
 CSS3 – Styling & Responsive Design
 
-JavaScript (Vanilla JS) – Functionality & API Integration
+JavaScript  – Functionality & API Integration
 
 Translation API – For language conversion
