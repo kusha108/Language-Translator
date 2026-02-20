@@ -1,30 +1,33 @@
 🌍 Language Translator App
 
-A modern and responsive Language Translator Web Application that translates text from one language to another in real-time. Built with a clean UI and smooth user experience.
+A responsive and user-friendly Language Translator Web Application built using HTML, CSS, and JavaScript. This application allows users to translate text between multiple languages in real-time using a translation API.
 
 🔗 Live Demo
 
 👉 Live Website: https://language-trans.netlify.app/
 
+(Replace with your actual deployed link)
+
 🚀 Features
 
 🌐 Translate text between multiple languages
-⚡ Real-time translation
-🔄 Swap languages option
-📋 Copy translated text
-🎨 Modern & responsive UI
-🌙 Clean and user-friendly design
+
+⚡ Instant real-time translation
+
+🔄 Swap source and target languages
+
+📋 Copy translated text easily
+
+🎨 Clean and responsive design
+
+📱 Works on desktop and mobile devices
 
 🛠️ Tech Stack
-Frontend: React.js
-Styling: Tailwind CSS / CSS
 
-Backend: Node.js
-API: Translation API
+HTML5 – Structure
 
-📸 How It Works
-Enter text in the input box
-Select source language
-Select target language
-Click translate
-Get instant translated output
+CSS3 – Styling & Responsive Design
+
+JavaScript (Vanilla JS) – Functionality & API Integration
+
+Translation API – For language conversion
